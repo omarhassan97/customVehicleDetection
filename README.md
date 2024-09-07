@@ -2,7 +2,7 @@
 This project focuses on vehicle detection and classification using a custom YOLOv10s model. The model is trained to detect vehicles in images and classify them into different categories. The project includes dataset preparation, model training, testing, and evaluation, and offers a simple web page for model inference using FastAPI.
 
 <p align="center">
-  <img src="https://github.com/omarhassan97/customVehicleDetection/blob/main/static/output.png" alt="example" />
+  <img src="https://github.com/omarhassan97/customVehicleDetection/blob/main/static/output_.png" alt="example" />
 </p>
 ## Project Structure
 * Object Detection Model: YOLOv10s custom model for vehicle detection
