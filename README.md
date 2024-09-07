@@ -11,13 +11,14 @@ This project focuses on vehicle detection and classification using a custom YOLO
 
 ## Setup Instructions
 1. install [Anaconda](https://www.anaconda.com/)
-2. Create a new environment and activate it
+2. clone the repo using `git clone https://github.com/omarhassan97/customVehicleDetection.git`
+3. Create a new environment and activate it
 ```
 conda create -n vehicle_detection python=3.9
 conda activate vehicle_detection
 ```
    
-3. Install required dependencies from `requirements.txt`:
+4. Install required dependencies from `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
@@ -61,14 +62,15 @@ python classification/test.py
 ## Model Traning
  This step 
 #### For vehicle detection:
+To run the traning edit `custom_coco.yaml` file with `path:` that reflect the absolute path of the dataset
 ```
-python detection/test.py
+python detection/training.py
 
 ```
 
 #### for vehicle classification:
 ```
-python classification/test.py
+python classification/training.py
 ```
 
 ##  FastAPI application
