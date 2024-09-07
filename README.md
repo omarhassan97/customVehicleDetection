@@ -4,6 +4,7 @@ This project focuses on vehicle detection and classification using a custom YOLO
 <p align="center">
   <img src="https://github.com/omarhassan97/customVehicleDetection/blob/main/static/output_.png" alt="example" />
 </p>
+
 ## Project Structure
 * Object Detection Model: YOLOv10s custom model for vehicle detection
 * Vehicle Classification: Classify detected vehicles into specific categories
